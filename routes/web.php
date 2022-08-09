@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DemoController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +18,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/demo/create',[DemoController::class,'create']);
 
+
+Route::get('/register', function () {
+    return view('register');
+});
