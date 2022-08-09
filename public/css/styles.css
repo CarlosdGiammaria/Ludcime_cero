@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #0985bf, #54e4d5);
+
+}
+
+.container_3
+{
+    background-color: red;
+}
+.button_demo{
+    border-radius: 6px;
+    border-color: #3adb70;
+}
