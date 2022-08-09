@@ -118,7 +118,7 @@
     <section>
         <img src="img/web-13.png" class="d-block w-100">
     </section>
-    <a href="/register">DEMO</a>
+    <a href="/demo/register ">DEMO</a>
 
     <!--end Image-->
 
