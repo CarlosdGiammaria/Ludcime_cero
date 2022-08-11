@@ -24,7 +24,7 @@
 
     <div class="container_global">
 
-        <!-- Menu -->
+        <!-- MEMU -->
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -34,24 +34,29 @@
                     aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">¿PARA QUIÉN?</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">¿PARA QUIÉN?</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#">FORMADOR COACH</a></li>
+                                <li><a href="#">LIDER DE BIENESTAR</a></li>
+                                <li><a href="#">DESARROLLO HUMANO</a></li>
+                                <li><a href="#">DOCENTE</a></li>
+                            </ul>
+                        </li>
 
-                        <li class="nav-item"><a class="nav-link" href="#lomasfantastico">¿POR QUÉ LUDIC ME?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Lomasfantastico">¿POR QUÉ LUDIC ME?</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact"> VALORILAND </a></li>
+                        <li class="nav-item"><a class="nav-link" href="/demo/register "> VALORILAND </a></li>
 
                     </ul>
 
                 </div>
             </div>
         </nav>
-        <!--end menu-->
+        <!--END MENU-->
 
         <!--CARRUSEL-->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-
-
             <!-- Indicators/dots -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -61,11 +66,11 @@
 
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
-                <div class="carousel-item active" id="ff3">
-                    <img src="img/web1_0.png" alt="Ludicme" class="d-block w-100">
+                <div class="carousel-item active" id="ff1">
+                    <img src="img/Ludicme.png" alt="Ludicme" class="d-block w-100">
                 </div>
-                <div class="carousel-item">
-                    <img src="img/carrusel_2.png" alt="Ludicme_2" class="d-block w-100">
+                <div class="carousel-item" id="ff2">
+                    <img src="img/divertida.png" alt="Ludicme_2" class="d-block w-100">
                 </div>
 
             </div>
@@ -78,40 +83,46 @@
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
-
         <!--END-CARRUSEL-->
-        <!--Primera Image-->
-      
+
+
+        <!--CUERPO DE LA PAGINA-->
+        <!--MISION Y VISION-->
         <section class="container_0_2" id="vision">
             <img src="img/vision_2.png" alt="personlizacion" class="d-block w-100">
         </section>
         <section class="container_0_1" id="Mision">
             <img src="img/Mision.png" alt="personlizacion" class="d-block w-100">
         </section>
-        <section class="container_1" id="lomasfantastico">
-            <img src="img/personaliza.png" alt="personlizacion" class="d-block w-100">
+        <!--END MISION Y VISION-->
+
+        <!--INTERACCION, CREATIVIDAD, PERSONALIZACION-->
+        <section class="container_1" id="Lomasfantastico">
+            <img src="img/amarillo1.png" alt="personlizacion" class="d-block w-100">
         </section>
         <section class="section_2">
             <img src="img/creatividad.png" id="creatividad" alt="valoriland_1" class="d-block w-100">
 
         </section>
-        <section class="container_3" id="ff3" >
+        <section class="container_3" id="Contactanos" id="">
 
-           <img src="img/web1_0.png" id="Contactanos" class="d-block w-100">
+            <img src="img/Contactanos.png" class="d-block w-100">
             {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil exercitationem necessitatibus
                 nisi mollitia deleniti adipisci minima earum quisquam quibusdam beatae fugit dolores suscipit sint alias
                 animi, a repudiandae itaque!</p> --}}
         </section>
 
 
-      
-        
+
+
         {{-- <a href="/demo/register ">DEMO</a> --}}
 
         <!--end Image-->
 
 
     </div>
+
+    <!--FINAL DEL CUERPO DE LA PAGINA-->
 
 
 
