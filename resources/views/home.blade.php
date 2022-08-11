@@ -23,101 +23,92 @@
 <body>
 
     <div class="container_global">
-      
-            <!-- Menu -->
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-                <div class="container px-4 px-lg-5">
-                    <a class="navbar-brand" href="#" ><img src="img/favicon.ico" alt="Logo_ludicme" id="logo"></a>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="#about">¿PARA QUIÉN?</a></li>
-                            
-                            <li class="nav-item"><a class="nav-link" href="#lomasfantastico">¿POR QUÉ LUDIC ME?</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contact"> VALORILAND </a></li>
-                        
-                          </ul>
-                          
-                    </div>
+
+        <!-- Menu -->
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#"><img src="img/favicon.ico" alt="Logo_ludicme" id="logo"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">¿PARA QUIÉN?</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="#lomasfantastico">¿POR QUÉ LUDIC ME?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"> VALORILAND </a></li>
+
+                    </ul>
+
                 </div>
-            </nav>
-            <!--end menu-->
+            </div>
+        </nav>
+        <!--end menu-->
 
-            <!--CARRUSEL-->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!--CARRUSEL-->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
 
 
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                   
-                </div>
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
 
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/carrusel_1.png" alt="Ludicme" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/carrusel_2.png" alt="Ludicme_2" class="d-block w-100">
-                    </div>
-                    
-                </div>
-
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
             </div>
 
-            <!--END-CARRUSEL-->
-            <!--Primera Image-->
-            <section class="container_0_1" id="vision">
-                <img src="img/Mision.png" alt="personlizacion" class="d-block w-100">
-            </section>
-            <section class="container_0_1" id="vision">
-                <img src="img/vision_2.png" alt="personlizacion" class="d-block w-100">
-            </section>
-            <section class="container_1" id="lomasfantastico">
-                <img src="img/personaliza.png" alt="personlizacion" class="d-block w-100">
-            </section>
-            <section class="section_2">
-                <img src="img/creatividad.png" id="creatividad" alt="valoriland_1" class="d-block w-100">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="ff3">
+                    <img src="img/web1_0.png" alt="Ludicme" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel_2.png" alt="Ludicme_2" class="d-block w-100">
+                </div>
 
-            </section>
-            <section class="container_3">
+            </div>
 
-                <img src="img/Contactanos.png" id="Contactanos" class="d-block w-100">
-            </section>
-          {{--   <section class="container_4">
-                <img src="img/Contactanos.png" class="d-block w-100">
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
 
-            </section> --}}
+        <!--END-CARRUSEL-->
+        <!--Primera Image-->
+      
+        <section class="container_0_2" id="vision">
+            <img src="img/vision_2.png" alt="personlizacion" class="d-block w-100">
+        </section>
+        <section class="container_0_1" id="Mision">
+            <img src="img/Mision.png" alt="personlizacion" class="d-block w-100">
+        </section>
+        <section class="container_1" id="lomasfantastico">
+            <img src="img/personaliza.png" alt="personlizacion" class="d-block w-100">
+        </section>
+        <section class="section_2">
+            <img src="img/creatividad.png" id="creatividad" alt="valoriland_1" class="d-block w-100">
 
-          {{--   <section>
-                <img src="img/precios.png" class="d-block w-100">
-            </section>
-            <section>
-                <img src="img/pantalla-roja.png" class="d-block w-100">
-            </section>
-            <section>
-                <img src="img/pantalla-amarilla.png" class="d-block w-100">
-            </section>
-            <section>
-                <img src="img/web-13.png" class="d-block w-100">
-            </section> --}}
-            <a href="/demo/register ">DEMO</a>
+        </section>
+        <section class="container_3" id="ff3" >
 
-            <!--end Image-->
+           <img src="img/web1_0.png" id="Contactanos" class="d-block w-100">
+            {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil exercitationem necessitatibus
+                nisi mollitia deleniti adipisci minima earum quisquam quibusdam beatae fugit dolores suscipit sint alias
+                animi, a repudiandae itaque!</p> --}}
+        </section>
+
+
+      
+        
+        {{-- <a href="/demo/register ">DEMO</a> --}}
+
+        <!--end Image-->
 
 
     </div>
