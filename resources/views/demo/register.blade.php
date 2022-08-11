@@ -27,7 +27,7 @@
             <div class="wrap">
                 <div class="f1">
                     <label for="">First Name</label>
-                    <input type="text" name="nombre" id="nombre required"/>
+                    <input type="text" name="nombre" id="nombre" required"/>
                     <span class="focus-input"></span>
                 </div>
                 <div class="f2">
@@ -52,7 +52,7 @@
                 <span class="focus-input2"></span>
             </div>
             <input class="btn" type="submit">
-            <input class="btn" type="reset" >
+            {{-- <input class="btn" type="reset" > --}}
         </form>
         <!--Imagen-->
         <div class="image">

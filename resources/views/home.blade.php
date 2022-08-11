@@ -28,7 +28,7 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
                 <div class="container px-4 px-lg-5">
-                    <a class="navbar-brand" href="#"><img src="img/favicon.ico" alt="Logo_ludicme" id="logo"></a>
+                    <a class="navbar-brand" href="#" ><img src="img/favicon.ico" alt="Logo_ludicme" id="logo"></a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                         aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -36,9 +36,9 @@
                         <ul class="navbar-nav ms-auto my-2 my-lg-0">
                             <li class="nav-item"><a class="nav-link" href="#about">¿PARA QUIÉN?</a></li>
                             
-                            <li class="nav-item"><a class="nav-link" href="#services">¿POR QUÉ LUDIC ME?</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#portfolio">CONTÁCTANOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contact">PLANES Y LANZAMIENTOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#lomasfantastico">¿POR QUÉ LUDIC ME?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact"> VALORILAND </a></li>
                         
                           </ul>
                           
@@ -56,7 +56,7 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                   
                 </div>
 
                 <!-- The slideshow/carousel -->
@@ -67,9 +67,7 @@
                     <div class="carousel-item">
                         <img src="img/carrusel_2.png" alt="Ludicme_2" class="d-block w-100">
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/carrusel_3.png" alt="Ludicme_3" class="d-block w-100">
-                    </div>
+                    
                 </div>
 
                 <!-- Left and right controls/icons -->
@@ -83,23 +81,29 @@
 
             <!--END-CARRUSEL-->
             <!--Primera Image-->
-            <section class="container_1">
-                <img src="img/web-03.png" alt="valoriland_1" class="d-block w-100">
+            <section class="container_0_1" id="vision">
+                <img src="img/Mision.png" alt="personlizacion" class="d-block w-100">
+            </section>
+            <section class="container_0_1" id="vision">
+                <img src="img/vision_2.png" alt="personlizacion" class="d-block w-100">
+            </section>
+            <section class="container_1" id="lomasfantastico">
+                <img src="img/personaliza.png" alt="personlizacion" class="d-block w-100">
             </section>
             <section class="section_2">
-                <img src="img/carrusel_2.png" alt="valoriland_1" class="d-block w-100">
+                <img src="img/creatividad.png" id="creatividad" alt="valoriland_1" class="d-block w-100">
 
             </section>
             <section class="container_3">
 
-                <img src="img/personaliza.png" class="d-block w-100">
+                <img src="img/Contactanos.png" id="Contactanos" class="d-block w-100">
             </section>
-            <section class="container_4">
+          {{--   <section class="container_4">
                 <img src="img/Contactanos.png" class="d-block w-100">
 
-            </section>
+            </section> --}}
 
-            <section>
+          {{--   <section>
                 <img src="img/precios.png" class="d-block w-100">
             </section>
             <section>
@@ -110,7 +114,7 @@
             </section>
             <section>
                 <img src="img/web-13.png" class="d-block w-100">
-            </section>
+            </section> --}}
             <a href="/demo/register ">DEMO</a>
 
             <!--end Image-->
