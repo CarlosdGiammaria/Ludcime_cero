@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+  cursor: url('../img/cursor_2.png'), auto;
+  
 }
 
 /* body{
@@ -158,7 +160,7 @@ h1{
 
 
 
-/* Contenedores de las imagenes en el carrusel */
+/* Contenedores de las imagenes */
 
 #fc1 {
   background-image: linear-gradient(to right, #0985bf, #54e4d5);
@@ -166,6 +168,20 @@ h1{
 #fc2{
   background-color: #e55352;
 }
+
+.fc3{
+  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+}
+.fc4{
+  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+}
+#fc5{
+  background-image: linear-gradient(to right,  #fc8c04, #fcac24);
+}
+.fc6{
+  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+}
+
 /* end contenedores */
 
 
