@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUDICME</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/ICONLUC.png">
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+    <link rel="icon" href="{{asset('img/ICONLUC.png')}}">
     <!-- CSS only -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
@@ -20,7 +20,7 @@
 </head>
 
 
-<body>
+<body style="cursor:url('img/cursor_2.png'), auto;">
 
     <div class="container_global">
 
@@ -28,7 +28,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#"><img src="img/favicon.ico" alt="Logo_ludicme" id="logo"></a>
+                <a class="navbar-brand" href="#"><img src="{{asset('img/favicon.ico')}}" alt="Logo_ludicme" id="logo"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -66,11 +66,11 @@
 
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
-                <div class="carousel-item active" id="ff1">
-                    <img src="img/Ludicme.png" alt="Ludicme" class="d-block w-100">
+                <div class="carousel-item active" id="fc1">
+                    <img src="{{asset('img/Ludicme.png')}}" alt="Ludicme" class="d-block w-100">
                 </div>
-                <div class="carousel-item" id="ff2">
-                    <img src="img/divertida.png" alt="Ludicme_2" class="d-block w-100">
+                <div class="carousel-item" id="fc2">
+                    <img src="{{asset('img/divertida.png')}}"  alt="Ludicme_2" class="d-block w-100">
                 </div>
 
             </div>
@@ -89,24 +89,24 @@
         <!--CUERPO DE LA PAGINA-->
         <!--MISION Y VISION-->
         <section class="container_0_2" id="vision">
-            <img src="img/vision_2.png" alt="personlizacion" class="d-block w-100">
+            <img src="{{asset('img/vision_2.png')}}""img/vision_2.png" alt="personlizacion" class="d-block w-100">
         </section>
         <section class="container_0_1" id="Mision">
-            <img src="img/Mision.png" alt="personlizacion" class="d-block w-100">
+            <img src="{{asset('img/Mision.png')}}" alt="personlizacion" class="d-block w-100">
         </section>
         <!--END MISION Y VISION-->
 
         <!--INTERACCION, CREATIVIDAD, PERSONALIZACION-->
         <section class="container_1" id="Lomasfantastico">
-            <img src="img/amarillo1.png" alt="personlizacion" class="d-block w-100">
+            <img src="{{asset('img/amarillo1.png')}}" alt="personlizacion" class="d-block w-100">
         </section>
         <section class="section_2">
-            <img src="img/creatividad.png" id="creatividad" alt="valoriland_1" class="d-block w-100">
+            <img src="{{asset('img/creatividad.png')}}" id="creatividad" alt="valoriland_1" class="d-block w-100">
 
         </section>
         <section class="container_3" id="Contactanos" id="">
 
-            <img src="img/Contactanos.png" class="d-block w-100">
+            <img src="{{asset('img/Contactanos.png')}}" class="d-block w-100">
             {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil exercitationem necessitatibus
                 nisi mollitia deleniti adipisci minima earum quisquam quibusdam beatae fugit dolores suscipit sint alias
                 animi, a repudiandae itaque!</p> --}}
@@ -126,7 +126,7 @@
 
 
 
-    <script src="js/app.js"></script>
+    <script src="{{ asset("js/app.js")}}"></script>
 </body>
 
 </html>

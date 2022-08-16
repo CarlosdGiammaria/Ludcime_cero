@@ -42,7 +42,7 @@ class DemoController extends Controller
         $demo = request()->except('_token');
 
         Demo::insert($demo);
-        return response()->json($demo);
+        return view('home');
         
    /*      request()->validate([
             'nombre'=>'required',

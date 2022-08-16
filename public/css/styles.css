@@ -3,8 +3,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
+
+/* body{
+  cursor:url('img/cursor_2.png'), auto;
+} */
+
+
 /* @font-face {
   font-family:letralucme;
   src: url(BeachStory.ttf);
@@ -154,10 +160,10 @@ h1{
 
 /* Contenedores de las imagenes en el carrusel */
 
-#ff1 {
+#fc1 {
   background-image: linear-gradient(to right, #0985bf, #54e4d5);
 }
-#ff2{
+#fc2{
   background-color: #e55352;
 }
 /* end contenedores */
