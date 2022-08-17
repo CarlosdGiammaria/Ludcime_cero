@@ -117,30 +117,33 @@
                     <div class="botones_carru">
 
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                   
+                       
                         <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                   
                     <img src="{{ asset('img/img_2/creatividad.png') }}" alt="creatividad" class="d-block w-100"
                         id="mascontenido">
 
                 </div>
                 <div class="carousel-item" id="fc5">
                    
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    
+                        
+                        <p>Some representative placeholder content for the third slide.</p>
+                    
                     
                     <img src="{{ asset('img/img_2/personaliza.png') }}" id="creatividad" alt="valoriland_1"
                         class="d-block w-100">
 
                 </div>
                 <div class="carousel-item" id="fc5">
+                   
+                       
+                        <p>Some representative placeholder content for the third slide.</p>
+                   
                     <img src="{{ asset('img/img_2/personaliza.png') }}" id="creatividad" alt="valoriland_1"
                         class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+                    
                 </div>
             </div>
 
