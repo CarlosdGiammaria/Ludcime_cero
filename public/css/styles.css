@@ -1,24 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300&display=swap");
-* {
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300&display=swap");
+ */
+ /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
+ 
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   cursor: url("../img/cursor_2.png"), auto;
 }
-
-/* body{
-  cursor:url('img/cursor_2.png'), auto;
-} */
-
-/* @font-face {
-  font-family:letralucme;
-  src: url(BeachStory.ttf);
-}
-
-h1{
-  font-family:letralucme ;
-} 
-
 /* START MENU */
 
 /* LOGO RESPONSIVE */
@@ -30,10 +20,13 @@ h1{
 }
 
 /* DROPDOWM */
-#valori{
-  border:3px solid white ;
+#valori {
+  border: 3px solid white;
   border-radius: 25px;
- 
+  
+}
+#valori :hover{
+  font-weight: bold;
 }
 .menu-vertical {
   position: absolute;
@@ -114,6 +107,7 @@ h1{
   }
   #mainNav .navbar-brand:hover {
     color: #0985bf;
+    
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
@@ -126,6 +120,7 @@ h1{
     font-weight: bold;
     padding-left: 7px;
     padding-right: 7px;
+    font-weight: 700;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -143,6 +138,7 @@ h1{
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #025f8a;
     border-radius: 30px;
+    font-weight: bold;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #14202c9f;
@@ -153,6 +149,7 @@ h1{
     background-color: #f1f1f1e7;
     margin: 10px;
     padding: 10px;
+    font-weight: bold;
   }
 }
 /* END MENU */
@@ -169,29 +166,45 @@ h1{
 .fc3 {
   background-image: linear-gradient(to right, #0985bf, #54e4d5);
 }
-.fc3 p{
+.fc3 img {
+  width: 100%;
+  height: 100%;
+}
+.fc3 p {
   font-size: 20px;
   color: white;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 59%;
+  right: 23%;
+  bottom: -64%;
   text-align: center;
-  transform: translate(-10%, 10%);
+  align-items: center;
+  justify-content: center;
+  transform: translate(7%, 3%);
 }
 .fc4 {
   background-image: linear-gradient(to right, #0985bf, #54e4d5);
 }
-.fc4 p{
-  font-size: 16px;
-  color: white;
-  position: absolute;
-  
-  transform: translate(-10%, 10%);
+.fc4 img {
+  width: 100%;
+  height: 100%;
 }
+.fc4 p {
+  font-size: 23px;
+  color: white;
+  left: 42%;
+  right: 23%;
+  top: 250%;
+  justify-content: center;
+  position: absolute;
+  transform: translate(38%, 17%);
+}
+
 /* END MISION Y VISION */
 
 #fc5 {
   background-image: linear-gradient(to right, #fc8c04, #fcac24);
-  cursor: pointer;
+
   /*transition: all 0.3s ease-in-out; */
 }
 #fc5 img {
@@ -212,21 +225,12 @@ h1{
 
   transform: translate(-10%, 10%);
 }
-/* #fc5 h5{
-  font-size: 3rem;
-  color: white;
-  position:absolute;
-  
-} */
+
 .fc6 {
   background-image: linear-gradient(to right, #0985bf, #54e4d5);
 }
 
 /* end contenedores */
-
-/* CUERPO DE LA PAGINA */
-
-/* FINAL DEL CUERPO */
 
 /* colores de ludicme
 
@@ -236,3 +240,6 @@ azul-verde: #59edd8;
 Salmon: #f79722;
 Rojo: #e55352; */
 /*   background-image: linear-gradient(to right, #0985bf, #54e4d5); */
+.carousel-indicators{
+  position: absolute;
+}

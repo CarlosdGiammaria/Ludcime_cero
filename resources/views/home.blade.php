@@ -48,9 +48,10 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="#mascontenido">¿POR QUÉ LUDIC ME?</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/demo/register " id="valori"> VALORILAND &nbsp;</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fc5">¿POR QUÉ LUDIC ME?</a></li>&nbsp;
+                        <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>&nbsp;
+                        <li class="nav-item"><a class="nav-link" href="/demo/register " id="valori"> VALORILAND
+                                &nbsp;</a></li>
 
                     </ul>
 
@@ -93,16 +94,21 @@
         <!--CUERPO DE LA PAGINA-->
         <!--MISION Y VISION-->
         <section class="fc3" id="vision">
+
+
             <p>Ser los proveedores de experiencias lúdicas y de gamificación para el aprendizaje más grandiosos de
                 Latinoamérica; conectando a cada persona con herramientas motivantes, creativas y divertidas que
-                edifiquen su vida desde su SER hacia el HACER.</p>
+                edifiquen su vida desde su <b>SER</b> hacia el <b>HACER.</b></p>
             <img src="{{ asset('img/img_2/web3.png') }}" alt="vision" class="d-block w-100">
         </section>
         <section class="fc4" id="Mision">
-            <p>Creando gran variedad de herramientas lúdicas digitales personalizables que puedas adaptar a cualquier
-                tipo de público y entorno (presencial, digital o mixto); y creando un ecosistema colaborativo para que
-                usuarios de todo el mundo puedan promover sus creaciones y recursos didácticos de acuerdo con su área de
-                experticia.</p>
+
+            <p><b>Creando gran variedad de herramientas lúdicas digitales personalizables que puedas adaptar a cualquier
+                    tipo de público y entorno (presencial, digital o mixto); y creando un ecosistema colaborativo para
+                    que
+                    usuarios de todo el mundo puedan promover sus creaciones y recursos didácticos de acuerdo con su
+                    área de
+                    experticia.</b></p>
             <img src="{{ asset('img/img_2/web4.png') }}" alt="mision" class="d-block w-100">
         </section>
         <!--END MISION Y VISION-->
@@ -110,20 +116,17 @@
         <!--INTERACCION, CREATIVIDAD, PERSONALIZACION-->
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
+
             <div class="carousel-inner" id="fc5">
-
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-item active" id="fc5">
-                    <div class="botones_carru">
-
-                    </div>
 
 
                     <p>Notarás que la interacción con tu audiencia se incrementará hasta las nubes, y que comenzarán a
@@ -152,7 +155,7 @@
 
                     <p>Te enseñaremos a desarrollar de manera sencilla tu <b>“YO CREATIVO”</b>, de tal manera que
                         aprendas a crear herramientas lúdicas desde “0” de acuerdo a tu carácter, personalidad gustos y
-                        públicos. “TODOS SOMOS CREATIVOS”</p>
+                        públicos. <b>“TODOS SOMOS CREATIVOS”</b></p>
 
                     <img src="{{ asset('img/img_2/creatividad.png') }}" id="creatividad" alt="valoriland_1"
                         class="d-block w-100">
@@ -171,6 +174,10 @@
         </section>
 
 
+        <div class="container">
+
+        </div>
+
 
 
 
@@ -181,7 +188,8 @@
     <!--end Image-->
 
 
-    </div>
+
+
 
     <!--FINAL DEL CUERPO DE LA PAGINA-->
 
@@ -199,3 +207,4 @@
 </ul> --}}
 {{-- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; --}}
 {{-- <i class='bx bx-align-middle'></i> --}}
+{{-- mockup --}}
