@@ -103,12 +103,12 @@
         </section>
         <section class="fc4" id="Mision">
 
-            <p><b>Creando gran variedad de herramientas lúdicas digitales personalizables que puedas adaptar a cualquier
+            <p>Creando gran variedad de herramientas lúdicas digitales personalizables que puedas adaptar a cualquier
                     tipo de público y entorno (presencial, digital o mixto); y creando un ecosistema colaborativo para
                     que
                     usuarios de todo el mundo puedan promover sus creaciones y recursos didácticos de acuerdo con su
                     área de
-                    experticia.</b></p>
+                    experticia.</p>
             <img src="{{ asset('img/img_2/web4.png') }}" alt="mision" class="d-block w-100">
         </section>
         <!--END MISION Y VISION-->
@@ -128,7 +128,8 @@
                 </div>
                 <div class="carousel-item active" id="fc5">
 
-
+                    <h1 id="fantastic"><b>LO MÁS<br>
+                         FANTASTICO</b> <br>DE NOSOSTROS</h1>
                     <p>Notarás que la interacción con tu audiencia se incrementará hasta las nubes, y que comenzarán a
                         esperar cada sesión o clase contigo, con una gran expectativa y emoción. <b>¡Tienes que probar
                             esto!</b></p>
@@ -140,7 +141,8 @@
                 <div class="carousel-item" id="fc5">
 
 
-                    <div></div>
+                    <h1 id="fantastic"><b>LO MÁS<br>
+                        FANTASTICO</b> <br>DE NOSOSTROS</h1>
                     <p>Tienes la posibilidad de <B>PERSONALIZAR</B> cada aventura de acuerdo a tus gustos y necesidades
                         de tus usuarios o clientes (historias intros, mensajes de los personajes, presentaciones, reglas
                         e items), de tal manera que podrás ser el <b>guionista</b> en todo.</p>
@@ -152,7 +154,8 @@
                 </div>
                 <div class="carousel-item" id="fc5">
 
-
+                    <h1 id="fantastic"><b>LO MÁS<br>
+                        FANTASTICO</b> <br>DE NOSOSTROS</h1>
                     <p>Te enseñaremos a desarrollar de manera sencilla tu <b>“YO CREATIVO”</b>, de tal manera que
                         aprendas a crear herramientas lúdicas desde “0” de acuerdo a tu carácter, personalidad gustos y
                         públicos. <b>“TODOS SOMOS CREATIVOS”</b></p>

@@ -190,7 +190,7 @@
   height: 100%;
 }
 .fc4 p {
-  font-size: 23px;
+  font-size: 26px;
   color: white;
   left: 42%;
   right: 23%;
@@ -217,10 +217,10 @@
 } */
 
 #fc5 p {
-  font-size: 24px;
+  font-size: 26px;
   color: white;
   position: absolute;
-  top: 70%;
+  top: 69%;
   left: 50%;
 
   transform: translate(-10%, 10%);
@@ -231,6 +231,21 @@
 }
 
 /* end contenedores */
+#fc5 h1{
+  position:absolute;
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  transform: translate(24%, 10%);
+  top: 24%;
+  
+  /* right: 23%;
+  top: 250%;
+  justify-content: center;
+  position: absolute;
+  transform: translate(38%, 17%); */
+}
+
 
 /* colores de ludicme
 
@@ -240,6 +255,3 @@ azul-verde: #59edd8;
 Salmon: #f79722;
 Rojo: #e55352; */
 /*   background-image: linear-gradient(to right, #0985bf, #54e4d5); */
-.carousel-indicators{
-  position: absolute;
-}
