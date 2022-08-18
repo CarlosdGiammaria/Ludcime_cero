@@ -104,11 +104,11 @@
         <section class="fc4" id="Mision">
 
             <p>Creando gran variedad de herramientas lúdicas digitales personalizables que puedas adaptar a cualquier
-                    tipo de público y entorno (presencial, digital o mixto); y creando un ecosistema colaborativo para
-                    que
-                    usuarios de todo el mundo puedan promover sus creaciones y recursos didácticos de acuerdo con su
-                    área de
-                    experticia.</p>
+                tipo de público y entorno (presencial, digital o mixto); y creando un ecosistema colaborativo para
+                que
+                usuarios de todo el mundo puedan promover sus creaciones y recursos didácticos de acuerdo con su
+                área de
+                experticia.</p>
             <img src="{{ asset('img/img_2/web4.png') }}" alt="mision" class="d-block w-100">
         </section>
         <!--END MISION Y VISION-->
@@ -118,18 +118,10 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
             <div class="carousel-inner" id="fc5">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
                 <div class="carousel-item active" id="fc5">
 
                     <h1 id="fantastic"><b>LO MÁS<br>
-                         FANTASTICO</b> <br>DE NOSOSTROS</h1>
+                            FANTASTICO</b> <br>DE NOSOSTROS</h1>
                     <p>Notarás que la interacción con tu audiencia se incrementará hasta las nubes, y que comenzarán a
                         esperar cada sesión o clase contigo, con una gran expectativa y emoción. <b>¡Tienes que probar
                             esto!</b></p>
@@ -142,7 +134,7 @@
 
 
                     <h1 id="fantastic"><b>LO MÁS<br>
-                        FANTASTICO</b> <br>DE NOSOSTROS</h1>
+                            FANTASTICO</b> <br>DE NOSOSTROS</h1>
                     <p>Tienes la posibilidad de <B>PERSONALIZAR</B> cada aventura de acuerdo a tus gustos y necesidades
                         de tus usuarios o clientes (historias intros, mensajes de los personajes, presentaciones, reglas
                         e items), de tal manera que podrás ser el <b>guionista</b> en todo.</p>
@@ -155,7 +147,7 @@
                 <div class="carousel-item" id="fc5">
 
                     <h1 id="fantastic"><b>LO MÁS<br>
-                        FANTASTICO</b> <br>DE NOSOSTROS</h1>
+                            FANTASTICO</b> <br>DE NOSOSTROS</h1>
                     <p>Te enseñaremos a desarrollar de manera sencilla tu <b>“YO CREATIVO”</b>, de tal manera que
                         aprendas a crear herramientas lúdicas desde “0” de acuerdo a tu carácter, personalidad gustos y
                         públicos. <b>“TODOS SOMOS CREATIVOS”</b></p>
@@ -164,22 +156,30 @@
                         class="d-block w-100">
 
                 </div>
+                
             </div>
 
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
         </div>
         <section class="fc6" id="Contactanos">
-
+            <h1><b>AGENDA TU CITA</b></h1>
             <img src="{{ asset('img/img_2/web5.png') }}" class="d-block w-100">
-            {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil exercitationem necessitatibus
-                nisi mollitia deleniti adipisci minima earum quisquam quibusdam beatae fugit dolores suscipit sint alias
-                animi, a repudiandae itaque!</p> --}}
+          
+            <p>Si manejas procesos de bienestar o formación a nivel empresarial, o procesos educativos en escuelas,
+                corporaciones, puedes solicitar una asesoría de 1 hora con nosotros completamente gratis.</p>
+
+                <button type="submit" class="btn_1">CLICK PARA AGENDAR AHORA</button>
         </section>
 
 
-        <div class="container">
 
-        </div>
 
 
 

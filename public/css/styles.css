@@ -1,17 +1,21 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap'); */
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap");
  */
- /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap'); */
- @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
- 
- * {
+/*  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,600;1,500&display=swap');
+ */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   cursor: url("../img/cursor_2.png"), auto;
 }
+
+a {
+  cursor: url("../img/cursor_2.png"), auto;
+}
 /* START MENU */
 
-/* LOGO RESPONSIVE */
+/* A media query that is changing the logo size when the screen is smaller than 1000.9px. */
 @media (max-width: 1000.9px) {
   #logo {
     height: 25px;
@@ -19,13 +23,12 @@
   }
 }
 
-/* DROPDOWM */
+/* The dropdown menu. */
 #valori {
   border: 3px solid white;
   border-radius: 25px;
-  
 }
-#valori :hover{
+#valori :hover {
   font-weight: bold;
 }
 .menu-vertical {
@@ -35,6 +38,7 @@
   width: 200px;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #f1f1f190;
   font-family: "Fira Sans", sans-serif;
 }
@@ -50,6 +54,7 @@
   display: block;
   padding: 3px;
   margin: 3px;
+  text-align: center;
   border-radius: 8px;
   padding-top: 10px;
   justify-content: center;
@@ -107,10 +112,10 @@
   }
   #mainNav .navbar-brand:hover {
     color: #0985bf;
-    
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
   }
   /* el bordeado blanco */
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -157,14 +162,16 @@
 /* Contenedores de las imagenes */
 
 #fc1 {
-  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+  background-image: linear-gradient(to right, #088cc4, #04f4e0);
 }
 #fc2 {
   background-color: #e55352;
 }
 /* MISION Y VISION */
+/* Positioning the text in the middle of the screen.
+*/
 .fc3 {
-  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+  background-image: linear-gradient(to right, #088cc4, #04f4e0);
 }
 .fc3 img {
   width: 100%;
@@ -183,7 +190,7 @@
   transform: translate(7%, 3%);
 }
 .fc4 {
-  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+  background-image: linear-gradient(to right, #088cc4, #04f4e0);
 }
 .fc4 img {
   width: 100%;
@@ -204,17 +211,11 @@
 
 #fc5 {
   background-image: linear-gradient(to right, #fc8c04, #fcac24);
-
-  /*transition: all 0.3s ease-in-out; */
 }
 #fc5 img {
   width: 100%;
   height: 100%;
 }
-/* #fc5 :hover{
-  transform: scale(1.1);
- 
-} */
 
 #fc5 p {
   font-size: 26px;
@@ -227,26 +228,66 @@
 }
 
 .fc6 {
-  background-image: linear-gradient(to right, #0985bf, #54e4d5);
+  background-image: linear-gradient(to right, #088cc4, #04f4e0);
 }
 
 /* end contenedores */
-#fc5 h1{
-  position:absolute;
+#fc5 h1 {
+  position: absolute;
   color: white;
   font-size: 70px;
   font-weight: 400;
   transform: translate(24%, 10%);
   top: 24%;
-  
-  /* right: 23%;
-  top: 250%;
-  justify-content: center;
-  position: absolute;
-  transform: translate(38%, 17%); */
 }
 
-
+/* Positioning CONTACTOS the text in the middle of the screen. */
+.fc6 p {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  top: 480%;
+  left: 58%;
+  font-family: "Fira Sans", sans-serif;
+  right: 10%;
+  align-items: flex-start;
+  justify-content: center;
+  transform: translate(-154%, 9%);
+}
+.fc6 h1 {
+  color: white;
+  position: absolute;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 36px;
+  transform: translate(59%, 9%);
+  font-weight: bold;
+  top: 476%;
+}
+.btn_1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Fira Sans", sans-serif;
+  top: 516%;
+  right: 10%;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  transform: translate(-390%, -220%);
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 9px 14px 9px 15px;
+}
+.btn_1:hover {
+  color: #046c9c;
+  border-radius: 20px;
+  background-color: #f1f1f1d3;
+  font-weight: bold;
+  border: none;
+}
 /* colores de ludicme
 
 azul oscuro: #0c8bbf;
@@ -255,3 +296,12 @@ azul-verde: #59edd8;
 Salmon: #f79722;
 Rojo: #e55352; */
 /*   background-image: linear-gradient(to right, #0985bf, #54e4d5); */
+/* azul oscuro: #0c8bbf;
+azul-light: #32bbcb;
+azul-verde: #59edd8;
+Salmon: #f79722;
+Rojo: #e55352;
+amarillo oscuro: #fc8c04
+Amarillo claro:#fcac24
+Cursor:#045564
+https://www.youtube.com/watch?v=odtvxsYgAlU */
