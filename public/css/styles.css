@@ -278,14 +278,14 @@ a {
   transform: translate(-390%, -220%);
   background: transparent;
   border: 2px solid white;
-  border-radius: 29px;
+  border-radius: 28px;
   padding: 10px 14px 10px 15px;
  height: 5%;
  width: 17%;
 }
 .btn_1:hover {
   color: #046c9c;
-  border-radius: 29px;
+  border-radius: 28px;
   background-color: #f1f1f1d3;
   font-weight: bold;
   border: none;
