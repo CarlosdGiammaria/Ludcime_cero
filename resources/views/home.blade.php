@@ -50,7 +50,7 @@
 
                         <li class="nav-item"><a class="nav-link" href="#fc5">¿POR QUÉ LUDIC ME?</a></li>&nbsp;
                         <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>&nbsp;
-                        <li class="nav-item"><a class="nav-link" href="/demo/register " id="valori"> VALORILAND
+                        <li class="nav-item"><a class="nav-link" href="{{-- /demo/register --}} " id="valori"> VALORILAND
                                 &nbsp;</a></li>
 
                     </ul>
@@ -156,26 +156,28 @@
                         class="d-block w-100">
 
                 </div>
-                
+
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-              </button>
+            </button>
         </div>
         <section class="fc6" id="Contactanos">
             <h1><b>AGENDA TU CITA</b></h1>
             <img src="{{ asset('img/img_2/web5.png') }}" class="d-block w-100">
-          
+
             <p>Si manejas procesos de bienestar o formación a nivel empresarial, o procesos educativos en escuelas,
                 corporaciones, puedes solicitar una asesoría de 1 hora con nosotros completamente gratis.</p>
 
-                <button type="submit" class="btn_1">CLICK PARA AGENDAR AHORA</button>
+            <button type="submit" class="btn_1">CLICK PARA AGENDAR AHORA</button>
         </section>
 
 

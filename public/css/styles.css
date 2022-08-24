@@ -226,12 +226,6 @@ a {
 
   transform: translate(-10%, 10%);
 }
-
-.fc6 {
-  background-image: linear-gradient(to right, #088cc4, #04f4e0);
-}
-
-/* end contenedores */
 #fc5 h1 {
   position: absolute;
   color: white;
@@ -240,6 +234,12 @@ a {
   transform: translate(24%, 10%);
   top: 24%;
 }
+
+.fc6 {
+  background-image: linear-gradient(to right, #088cc4, #04f4e0);
+}
+
+/* end contenedores */
 
 /* Positioning CONTACTOS the text in the middle of the screen. */
 .fc6 p {
@@ -270,7 +270,7 @@ a {
   font-weight: bolder;
   font-family: "Fira Sans", sans-serif;
   top: 516%;
-  right: 10%;
+  right: 9%;
   position: absolute;
   align-items: flex-start;
   justify-content: center;
@@ -280,8 +280,8 @@ a {
   border: 2px solid white;
   border-radius: 28px;
   padding: 10px 14px 10px 15px;
- height: 5%;
- width: 17%;
+  height: 5%;
+  width: 17%;
 }
 .btn_1:hover {
   color: #046c9c;
@@ -290,6 +290,142 @@ a {
   font-weight: bold;
   border: none;
 }
+
+/* MEDIA QUERIES */
+/* 1280 */
+@media only screen and (max-width: 1280px) {
+  /* MISION Y VISION */
+  .fc3 p {
+    font-size: 14px;
+    color: white;
+    transform: translate(8%, -105%);
+  }
+  .fc4 p {
+    font-size: 18px;
+    color: white;
+    transform: translate(40%, -190%);
+    align-items: center;
+    justify-content: center;
+  }
+  /* end MISION Y VISION */
+
+  #fc5 p {
+    font-size: 22px;
+    color: white;
+  }
+  #fc5 h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    transform: translate(24%, 10%);
+  }
+  .fc6 p {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    top: 402%;
+    left: 56%;
+    font-family: "Fira Sans", sans-serif;
+    right: 10%;
+    transform: translate(-139%, 10%);
+  }
+  .fc6 h1 {
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    /* top: 396%;  */
+    transform: translate(40%, -1590%);
+  }
+  .btn_1 {
+    color: rgb(255, 255, 255);
+    transform: translate(-320%, -1849%);
+    height: 5%;
+    width: 20%;
+    border-radius: 28px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .btn_1:hover {
+    color: #046c9c;
+    border-radius: 28px;
+    background-color: #f1f1f1d3;
+    font-weight: bold;
+    border: none;
+  }
+}
+/* end 1280 */
+
+/* 1024px */
+
+@media only screen and (max-width: 1024px) {
+  #valori {
+    border: 3px solid white;
+    border-radius: 20px;
+    height: 47px;
+    margin: auto;
+    word-spacing: 0.25em;
+  }
+  #valori:hover {
+    color: #046c9c;
+    font-weight: bold;
+    background-color: #f1f1f1d3;
+  }
+  /* MISION Y VISION */
+  .fc3 p {
+    font-size: 11px;
+    color: white;
+    transform: translate(7%, -55%);
+
+    text-align: center;
+  }
+  .fc4 p {
+    font-size: 14px;
+    color: white;
+    transform: translate(40%, -120%);
+    align-items: center;
+    justify-content: center;
+  }
+  /* end MISION Y VISION */
+  #fc5 p {
+    font-size: 16px;
+    color: white;
+  }
+  #fc5 h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    transform: translate(20%, 10%);
+  }
+  .fc6 p {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    left: 56%;
+    font-family: "Fira Sans", sans-serif;
+    right: 10%;
+    transform: translate(-139%, 147%);
+  }
+  .fc6 h1 {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    transform: translate(50%, -1230%);
+  }
+  .btn_1 {
+    color: rgb(255, 255, 255);
+    transform: translate(-320%, -1110%);
+    height: 6%;
+    width: 20%;
+    border-radius: 28px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+
+/* end 1024px */
+
 /* colores de ludicme
 
 azul oscuro: #0c8bbf;
