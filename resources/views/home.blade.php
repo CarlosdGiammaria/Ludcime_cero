@@ -10,6 +10,7 @@
     <link rel="icon" href="{{ asset('img/ICONLUC.png') }}">
     <!-- CSS only -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/dist/boxicons.js' rel='stylesheet'>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -50,7 +51,8 @@
 
                         <li class="nav-item"><a class="nav-link" href="#fc5">¿POR QUÉ LUDIC ME?</a></li>&nbsp;
                         <li class="nav-item"><a class="nav-link" href="#Contactanos">CONTÁCTANOS</a></li>&nbsp;
-                        <li class="nav-item"><a class="nav-link" href="{{-- /demo/register --}} " id="valori"> VALORILAND
+                        <li class="nav-item"><a class="nav-link" href="{{-- /demo/register --}} " id="valori">
+                                VALORILAND
                                 &nbsp;</a></li>
 
                     </ul>
@@ -173,11 +175,43 @@
         <section class="fc6" id="Contactanos">
             <h1><b>AGENDA TU CITA</b></h1>
             <img src="{{ asset('img/img_2/web5.png') }}" class="d-block w-100">
+            <p id="p2">Dejanos tu opinión con respecto <br>a nustros juegos <br>
+                Y haz parte de este proceso.</p>
 
             <p>Si manejas procesos de bienestar o formación a nivel empresarial, o procesos educativos en escuelas,
                 corporaciones, puedes solicitar una asesoría de 1 hora con nosotros completamente gratis.</p>
+            <p id="p2">Dejanos tu opinión con respecto <br>a nustros juegos <br>
+                Y haz parte de este proceso.</p>
+            <p id="h2">COMENTA:</p>
+            <input type="text" name="" id="comenta">
+            <button type="submit" class="btn_2"><i class='bx bxs-right-arrow'></i></button>
+
 
             <button type="submit" class="btn_1">CLICK PARA AGENDAR AHORA</button>
+          {{--   <div class="wrapper">
+                <div class="button">
+                    <div class="icon"> <i class='bx bx-map'></i></div>
+                    <span>Ubicación</span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon"><i class='bx bxs-envelope'></i></div>
+                    <span>Email</span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon"> <i class='bx bxs-phone'></i></div>
+                    <span>Phone</span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon"><i class='bx bxs-message-dots'></i></div>
+                    <span>Message</span>
+                </div>
+            </div> --}}
         </section>
 
 
