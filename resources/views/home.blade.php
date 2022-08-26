@@ -188,30 +188,7 @@
 
 
             <button type="submit" class="btn_1">CLICK PARA AGENDAR AHORA</button>
-          {{--   <div class="wrapper">
-                <div class="button">
-                    <div class="icon"> <i class='bx bx-map'></i></div>
-                    <span>Ubicación</span>
-                </div>
-            </div>
-            <div class="wrapper">
-                <div class="button">
-                    <div class="icon"><i class='bx bxs-envelope'></i></div>
-                    <span>Email</span>
-                </div>
-            </div>
-            <div class="wrapper">
-                <div class="button">
-                    <div class="icon"> <i class='bx bxs-phone'></i></div>
-                    <span>Phone</span>
-                </div>
-            </div>
-            <div class="wrapper">
-                <div class="button">
-                    <div class="icon"><i class='bx bxs-message-dots'></i></div>
-                    <span>Message</span>
-                </div>
-            </div> --}}
+     
         </section>
 
 
